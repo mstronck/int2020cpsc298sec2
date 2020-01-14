@@ -18,6 +18,7 @@ int main (int argc, char **argv){
   int room_cap = 0;
   int ppl_to_attend = 0;
   int open_cap = 0;
+  int over_cap = 0;
 
   //recieving inputs
   cout << "Input maximum room capacity." << endl;
@@ -32,7 +33,9 @@ int main (int argc, char **argv){
     cout << open_cap << " additional people may legally attend." << endl;
   } else{
     cout << "Number of people exceeds the maximum room capacity." << endl;
+    over_cap = ppl_to_attend - room_cap;
     cout << "The meeting cannot be held as planned." << endl;
+    cout << over_cap << " people must leave to meet regulations." << endl;
   }
 
   return 0;
