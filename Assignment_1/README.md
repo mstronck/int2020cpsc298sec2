@@ -5,7 +5,10 @@ Mercer Stronck
 Assignment 1
 
 Source Files:
-NA
+Problemceral.cpp
+Problemfirecapacity.cpp
+Problememployeepay.cpp
+Probleminflation.cpp
 
 Code anomalies:
 NA
